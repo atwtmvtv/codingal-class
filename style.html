@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+
+            height: 200vh;
+        }
+
+        .container {
+            position: relative;
+            left: 50 px;
+            width: 80%;
+            height: 400 px;
+            margin: 20px auto;
+            border: 2px solid grey;
+            padding: 20px;
+        }
+
+        .absolute-position {
+            position: absolute;
+            left: 100px;
+            top: 20px;
+            background-color: aquamarine;
+            padding: 5px;
+
+
+
+
+        }
+
+        .fixed-position {
+            position: fixed;
+            right: 100px;
+            top: 20px auto;
+            background-color: rgb(85, 87, 189);
+            padding: 5px;}
+
+            .relative-position {
+            position: relative;
+            right: 100px;
+            top: 20px auto;
+            background-color: rgb(202, 116, 10);
+            padding: 5px;}
+
+            
+            .static-position {
+            position:static;
+            top: 20x;
+            background-color: rgb(198, 163, 224);
+            padding: 5px;}
+
+
+            .sticky-position {
+            position: sticky;
+            top: 2px;
+            background-color: rgb(130, 11, 11);
+            padding: 5px;}
+
+
+            .opacity-example {
+            
+opacity:0.3%;
+            background-color: rgb(202, 116, 10);
+            padding: 5px;}
+    </style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning in html </title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="absolute-position">Absolute position</div>
+        <div class="fixed-position">Fixed position</div>
+        <div class="relative-position">Relative position</div>
+        <div class="static-position">Static position</div>
+        <div class="sticky-position">Sticky position</div>
+        <div class="opacity-example">Opacity example</div>
+    </div>
+</body>
+
+</html>
